@@ -15,7 +15,7 @@ export default function Nav() {
         <div className="flex justify-between items-center mx-4 sm:mx-16 md:mx-32 xl:mx-40 2xl:mx-96">
           <Link href="/#start">
             <div
-              className="text-center text-black cursor-pointer"
+              className="cursor-pointer text-green-300"
               onClick={() => setMenu(false)}
             >
               <h3>
@@ -26,9 +26,9 @@ export default function Nav() {
           </Link>
           <div className="md:hidden" onClick={() => setMenu(!menu)}>
             {menu ? (
-              <MdCancelPresentation className="text-4xl" />
+              <MdCancelPresentation className="text-4xl text-green-300" />
             ) : (
-              <AiOutlineMenu className="text-4xl" />
+              <AiOutlineMenu className="text-4xl text-green-300" />
             )}
           </div>
           <div className="hidden md:flex" onClick={() => setMenu(false)}>
@@ -48,7 +48,7 @@ export default function Nav() {
                 <h5 className="lg:text-lg">KONTAKT</h5>
               </a>
             </Link>
-            <Link href="/#impressum">
+            <Link href="/impressum">
               <a className="p-3 cursor-pointer">
                 <h5 className="lg:text-lg">IMPRESSUM</h5>
               </a>
@@ -73,15 +73,15 @@ export default function Nav() {
           <Link href="/kontakt">
             <h4 className="p-6">KONTAKT</h4>
           </Link>
-          <Link href="/#impressum">
+          <Link href="/impressum">
             <h4 className="p-6">IMPRESSUM</h4>
           </Link>
         </div>
       )}
       <Link href="/kontakt">
         <div className={router.pathname === "/kontakt" ? "hidden" : ""}>
-          <button className="fixed bottom-5 right-5 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl p-2 rounded-full border-2 border-black">
-            <b>Kontakt</b>
+          <button className="bg-green-300 hover:bg-green-400 text-white rounded-2xl fixed bottom-5 right-5 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl p-2">
+            Kontakt
           </button>
         </div>
       </Link>

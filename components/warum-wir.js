@@ -38,11 +38,11 @@ export default function WarumWir() {
       </h3>
       <div className="flex justify-between text-2xl my-5 h-60 items-center">
         <button className="p-5" onClick={decrement}>
-          <MdOutlineArrowBackIos />
+          <MdOutlineArrowBackIos className="text-green-300" />
         </button>
         {number === 1 ? (
           <div>
-            <AiFillLock className="m-auto text-4xl" />
+            <AiFillLock className="text-green-300 m-auto text-4xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl" />
             <h4 className="md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
               <b>Zuverlässigkeit</b>
             </h4>
@@ -53,7 +53,7 @@ export default function WarumWir() {
           </div>
         ) : number === 2 ? (
           <div>
-            <AiOutlineCheckCircle className="m-auto text-4xl" />
+            <AiOutlineCheckCircle className="text-green-300 m-auto text-4xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl" />
             <h4 className="md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
               <b>Kompetenz</b>
             </h4>
@@ -63,7 +63,7 @@ export default function WarumWir() {
           </div>
         ) : number === 3 ? (
           <div>
-            <GiPodiumWinner className="m-auto text-4xl" />
+            <GiPodiumWinner className="text-green-300 m-auto text-4xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl" />
             <h4 className="md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
               <b>Individualität</b>
             </h4>
@@ -73,7 +73,7 @@ export default function WarumWir() {
           </div>
         ) : number === 4 ? (
           <div>
-            <GiThrustBend className="m-auto text-4xl" />
+            <GiThrustBend className="text-green-300 m-auto text-4xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl" />
             <h4 className="md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
               <b>Flexibilität</b>
             </h4>
@@ -83,7 +83,7 @@ export default function WarumWir() {
           </div>
         ) : number === 5 ? (
           <div>
-            <GiCutDiamond className="m-auto text-4xl" />
+            <GiCutDiamond className="text-green-300 m-auto text-4xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl" />
             <h4 className="md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
               <b> Gründlichkeit</b>
             </h4>
@@ -93,38 +93,38 @@ export default function WarumWir() {
           </div>
         ) : null}
         <button className="p-5" onClick={increment}>
-          <MdOutlineArrowForwardIos />
+          <MdOutlineArrowForwardIos className="text-green-300" />
         </button>
       </div>
       <div className="flex justify-center text-green-100">
         <BsCircleFill
           onClick={() => setNumber(1)}
-          className={`cursor-pointer m-1 border-2 border-black rounded-full ${
-            number === 1 ? "text-black" : ""
+          className={`cursor-pointer m-1 border-2 border-gray-700 rounded-full ${
+            number === 1 ? "text-green-300" : ""
           }`}
         />
         <BsCircleFill
           onClick={() => setNumber(2)}
-          className={`cursor-pointer m-1 border-2 border-black rounded-full ${
-            number === 2 ? "text-black" : ""
+          className={`cursor-pointer m-1 border-2 border-gray-700 rounded-full ${
+            number === 2 ? "text-green-300" : ""
           }`}
         />
         <BsCircleFill
           onClick={() => setNumber(3)}
-          className={`cursor-pointer m-1 border-2 border-black rounded-full ${
-            number === 3 ? "text-black" : ""
+          className={`cursor-pointer m-1 border-2 border-gray-700 rounded-full ${
+            number === 3 ? "text-green-300" : ""
           }`}
         />
         <BsCircleFill
           onClick={() => setNumber(4)}
-          className={`cursor-pointer m-1 border-2 border-black rounded-full ${
-            number === 4 ? "text-black" : ""
+          className={`cursor-pointer m-1 border-2 border-gray-700 rounded-full ${
+            number === 4 ? "text-green-300" : ""
           }`}
         />
         <BsCircleFill
           onClick={() => setNumber(5)}
-          className={`cursor-pointer m-1 border-2 border-black rounded-full ${
-            number === 5 ? "text-black" : ""
+          className={`cursor-pointer m-1 border-2 border-gray-700 rounded-full ${
+            number === 5 ? "text-green-300" : ""
           }`}
         />
       </div>

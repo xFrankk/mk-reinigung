@@ -15,13 +15,13 @@ export default function Kontakt() {
           <h4 className="sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
             Wir sind gerne für Sie da. Kontaktieren Sie uns jetzt.
           </h4>
-          <h4 className="border-2 border-black p-2 my-5 text-sm sm:text-md md:lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+          <h4 className="bg-green-300 hover:bg-green-400 text-white rounded-2xl p-2 my-5 text-sm sm:text-md md:lg lg:text-xl xl:text-2xl 2xl:text-3xl">
             <AiOutlinePhone className="inline" /> 015208635640
           </h4>
-          <h4 className="border-2 border-black p-2 my-5 text-sm sm:text-md md:lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+          <h4 className="bg-green-300 hover:bg-green-400 text-white rounded-2xl p-2 my-5 text-sm sm:text-md md:lg lg:text-xl xl:text-2xl 2xl:text-3xl">
             <AiOutlineMail className="inline" /> kuliberdamarta146@gmail.com
           </h4>
-          <h4 className="border-2 border-black p-2 my-5 text-sm sm:text-md md:lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+          <h4 className="bg-green-300 hover:bg-green-400 text-white rounded-2xl p-2 my-5 text-sm sm:text-md md:lg lg:text-xl xl:text-2xl 2xl:text-3xl">
             <AiOutlineWhatsApp className="inline" /> 015208635640
           </h4>
         </div>

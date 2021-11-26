@@ -5,7 +5,7 @@ import Impressum from "../components/impressum"
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <div className="font-oswald text-gray-700">
       <Head>
         <title>MK-Reinigung</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
         <Impressum />
       </div>
-    </>
+    </div>
   )
 }
 

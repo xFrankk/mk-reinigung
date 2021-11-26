@@ -10,7 +10,7 @@ export default function Leistungen() {
           <b>Unsere Leistungen</b>
         </h3>
         <div className="my-7">
-          <GiOfficeChair className="text-4xl m-auto md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl" />
+          <GiOfficeChair className="text-green-300 text-4xl m-auto md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl" />
           <h4 className="my-2 md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
             Büroreinigung
           </h4>
@@ -20,7 +20,7 @@ export default function Leistungen() {
           </h5>
         </div>
         <div className="my-7">
-          <MdConstruction className="text-4xl m-auto md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl" />
+          <MdConstruction className="text-green-300 text-4xl m-auto md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl" />
           <h4 className="my-2 md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
             Bau-Feinreinigung
           </h4>
@@ -31,7 +31,7 @@ export default function Leistungen() {
           </h5>
         </div>
         <div className="my-7">
-          <GiStairs className="text-4xl m-auto md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl" />
+          <GiStairs className="text-green-300 text-4xl m-auto md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl" />
           <h4 className="my-2 md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
             Treppenhausreinigung
           </h4>
@@ -42,7 +42,7 @@ export default function Leistungen() {
           </h5>
         </div>
         <Link href="/leistungen">
-          <button className="border-2 border-black p-2 mt-10 sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl">
+          <button className="bg-green-300 hover:bg-green-400 text-white rounded-2xl p-2 mt-10 sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl">
             Alle Leistungen
           </button>
         </Link>

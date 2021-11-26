@@ -10,8 +10,8 @@ export default function Start() {
             Zufriedenheitsgarantie!
           </h5>
           <Link href="/kontakt">
-            <button className="border-2 border-black p-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
-              <b>ANGEBOT ANFORDERN</b>
+            <button className="p-2 bg-green-300 hover:bg-green-400 text-white rounded-2xl text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
+              <b>Angebot anfordern!</b>
             </button>
           </Link>
         </div>

@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        oswald: ["Red Hat Mono"]
+        oswald: ["Signika"]
       }
     }
   },
