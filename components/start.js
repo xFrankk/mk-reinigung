@@ -5,9 +5,9 @@ export default function Start() {
     <>
       <div id="start" className="relative h-screen">
         <Link href="/#garantie">
-          <a className="absolute right-1/4 top-40 rotate-45 text-yellow-400 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
+          <button className="absolute right-0 top-40 rotate-45 rounded-full p-6 bg-yellow-400 hover:bg-yellow-500 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
             logo
-          </a>
+          </button>
         </Link>
         <div className="absolute top-2/4">
           <div className="flex items-center">
@@ -17,7 +17,7 @@ export default function Start() {
                 100% Zufriedenheitsgarantie!
               </h5>
               <Link href="/kontakt">
-                <button className="p-2 bg-green-300 hover:bg-green-400 text-white rounded-2xl text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
+                <button className="p-4 bg-yellow-400 hover:bg-yellow-500 rounded-2xl text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
                   <b>Angebot anfordern!</b>
                 </button>
               </Link>
@@ -25,7 +25,6 @@ export default function Start() {
           </div>
         </div>
       </div>
-      ________
     </>
   )
 }

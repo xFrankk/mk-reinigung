@@ -35,7 +35,7 @@ export default function Reviews() {
           {number === 1 ? (
             <div>
               <h5 className="2xl:w-2/4 m-auto md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
-                "Seit über drei Jahren macht Frau Kuliberta mit ihrem
+                "Seit über drei Jahren macht Frau Kuliberda mit ihrem
                 Reinigungsservice die Treppenreinigung unserer Anlagen. Ihre
                 Arbeit ist immer sehr gut und vor Allem konstant. Wir hoffen auf
                 eine noch lange Zusammenarbeit."
@@ -47,7 +47,7 @@ export default function Reviews() {
           ) : number === 2 ? (
             <div>
               <h5 className="2xl:w-2/4 m-auto md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
-                "Frau Kuliberta arbeitet äußerst gründlich und ordentlich. Sie
+                "Frau Kuliberda arbeitet äußerst gründlich und ordentlich. Sie
                 ist ohne Ausnahmen zuverlässig und vertrauenswürdig. Wir sind
                 sehr froh, sie gefunden zu haben."
               </h5>
@@ -64,7 +64,7 @@ export default function Reviews() {
             <MdOutlineArrowForwardIos className="text-green-300" />
           </button>
         </div>
-        <div className="flex justify-center text-green-100">
+        {/* <div className="flex justify-center text-green-100">
           <button>
             <BsCircleFill
               onClick={() => setNumber(1)}
@@ -89,7 +89,7 @@ export default function Reviews() {
               }`}
             />
           </button>
-        </div>
+        </div> */}
       </div>
       ________
     </>

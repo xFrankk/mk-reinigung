@@ -66,7 +66,7 @@ export default function WarumWir() {
               <b>Professionell</b>
             </h4>
             <h5 className="md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
-              Wir versuchen Alles um Ihren Termin möglich zu machen.
+              Durch unsere jahrelange Erfahrung ist Professionalität garantiert.
             </h5>
           </div>
         </div>

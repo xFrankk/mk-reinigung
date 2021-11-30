@@ -6,6 +6,10 @@ module.exports = {
     extend: {
       fontFamily: {
         oswald: ["Signika"]
+      },
+      backgroundImage: {
+        woman: "url('/img/woman.jpg')",
+        food: "url('/img/food.png')"
       }
     }
   },

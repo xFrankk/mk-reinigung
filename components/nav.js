@@ -17,7 +17,7 @@ export default function Nav() {
         <div className="flex justify-between items-center mx-4 sm:mx-16 md:mx-32 xl:mx-40 2xl:mx-96">
           <Link href="/#start">
             <div
-              className="cursor-pointer text-green-300"
+              className="cursor-pointer hover:text-gray-600"
               onClick={() => setMenu(false)}
             >
               <h3>
@@ -33,26 +33,31 @@ export default function Nav() {
               <AiOutlineMenu className="text-4xl" />
             )}
           </div>
-          <div className="hidden md:flex" onClick={() => setMenu(false)}>
+          <div
+            className="hidden md:flex items-center justify-center"
+            onClick={() => setMenu(false)}
+          >
             <Link href="/#leistungen">
               <a className="p-3 cursor-pointer">
-                <h5 className="lg:text-lg">LEISTUNGEN</h5>
+                <h5 className="lg:text-lg hover:text-gray-600">LEISTUNGEN</h5>
               </a>
             </Link>
             <Link href="/#ueber-uns">
               <a className="p-3 cursor-pointer ">
-                <h5 className="lg:text-lg">ÜBER UNS</h5>
+                <h5 className="lg:text-lg hover:text-gray-600">ÜBER UNS</h5>
               </a>
             </Link>
 
             <Link href="/kontakt">
               <a className="p-3 cursor-pointer">
-                <h5 className="lg:text-lg">KONTAKT</h5>
+                <h5 className="lg:text-lg hover:text-gray-600">KONTAKT</h5>
               </a>
             </Link>
             <Link href="/#garantie">
-              <a className="p-3 cursor-pointer text-yellow-400">
-                <h5 className="lg:text-lg">GARANTIE</h5>
+              <a className="p-3 pr-0 cursor-pointer text-yellow-400 hover:text-yellow-500">
+                <h5 className="lg:text-lg">
+                  <b>GARANTIE</b>
+                </h5>
               </a>
             </Link>
           </div>
@@ -86,7 +91,7 @@ export default function Nav() {
         <button
           className={`${
             router.pathname === "/kontakt" ? "hidden" : ""
-          } bg-green-300 z-10 hover:bg-green-400 text-white rounded-2xl fixed bottom-5 right-5 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl p-2`}
+          } z-10 bg-yellow-400 hover:bg-yellow-500 rounded-2xl fixed bottom-5 right-5 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl p-2`}
         >
           Kontakt
         </button>

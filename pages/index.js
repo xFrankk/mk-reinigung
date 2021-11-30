@@ -7,6 +7,7 @@ import Garantie from "../components/garantie"
 export default function Home() {
   return (
     <>
+      <div className="bg-woman bg-top bg-cover h-screen w-full absolute top-0 left-0"></div>
       <Start />
       <Leistungen />
       <WarumWir />
