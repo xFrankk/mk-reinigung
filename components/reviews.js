@@ -61,8 +61,7 @@ export default function Reviews() {
                 "Frau Kuliberda ist eine sehr angenehme und freundliche Person.
                 Seit fünf Jahren reinigt sie unsere Büroräume und es gab noch
                 nie einen Grund zur Beanstandung. Jeder schätzt ihre Höflichkeit
-                und Pünktlichkeit und dass sie sehr gründlich, schnell und
-                effizient arbeitet."
+                und Pünktlichkeit."
               </h5>
               <h5 className="my-5 md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
                 <b>Firma van Erp GmbH</b>
@@ -73,32 +72,6 @@ export default function Reviews() {
             <MdOutlineArrowForwardIos />
           </button>
         </div>
-        {/* <div className="flex justify-center text-green-100">
-          <button>
-            <BsCircleFill
-              onClick={() => setNumber(1)}
-              className={`cursor-pointer m-1 border-2 border-gray-700 rounded-full ${
-                number === 1 ? "text-green-300" : ""
-              }`}
-            />
-          </button>
-          <button>
-            <BsCircleFill
-              onClick={() => setNumber(2)}
-              className={`cursor-pointer m-1 border-2 border-gray-700 rounded-full ${
-                number === 2 ? "text-green-300" : ""
-              }`}
-            />
-          </button>
-          <button>
-            <BsCircleFill
-              onClick={() => setNumber(3)}
-              className={`cursor-pointer m-1 border-2 border-gray-700 rounded-full ${
-                number === 3 ? "text-green-300" : ""
-              }`}
-            />
-          </button>
-        </div> */}
       </div>
     </>
   )
