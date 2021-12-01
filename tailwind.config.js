@@ -5,11 +5,14 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        oswald: ["Signika"]
+        oswald: ["Outfit"]
       },
       backgroundImage: {
         woman: "url('/img/woman.jpg')",
-        food: "url('/img/food.png')"
+        food: "url('/img/food.png')",
+        marta1: "url('/img/marta1.jpg')",
+        marta4: "url('/img/marta4.jpg')",
+        marta3: "url('/img/marta3.jpg')"
       }
     }
   },

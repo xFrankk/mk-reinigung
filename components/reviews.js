@@ -56,9 +56,18 @@ export default function Reviews() {
               </h5>
             </div>
           ) : (
-            <h5 className="2xl:w-2/4 m-auto md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
-              review 3
-            </h5>
+            <div>
+              <h5 className="2xl:w-2/4 m-auto md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+                "Frau Kuliberda ist eine sehr angenehme und freundliche Person.
+                Seit fünf Jahren reinigt sie unsere Büroräume und es gab noch
+                nie einen Grund zur Beanstandung. Jeder schätzt ihre Höflichkeit
+                und Pünktlichkeit und dass sie sehr gründlich, schnell und
+                effizient arbeitet."
+              </h5>
+              <h5 className="my-5 md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+                <b>Firma van Erp GmbH</b>
+              </h5>
+            </div>
           )}
           <button className="sm:p-5 cursor-pointer " onClick={increment}>
             <MdOutlineArrowForwardIos className="text-green-300" />
@@ -91,7 +100,6 @@ export default function Reviews() {
           </button>
         </div> */}
       </div>
-      ________
     </>
   )
 }

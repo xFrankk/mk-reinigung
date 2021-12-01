@@ -62,7 +62,6 @@ export default function Leistungen() {
           </button>
         </Link>
       </div>
-      ________
     </>
   )
 }

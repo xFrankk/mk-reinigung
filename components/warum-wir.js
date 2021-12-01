@@ -5,7 +5,7 @@ import { FaLightbulb } from "react-icons/fa"
 export default function WarumWir() {
   return (
     <>
-      <div id="ueber-uns" className="py-20">
+      <div id="ueber-uns" className="py-20 bg-gray-200 -mx-8">
         <h3 className="mb-10 md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
           <b>Warum wir?</b>
         </h3>
@@ -71,7 +71,6 @@ export default function WarumWir() {
           </div>
         </div>
       </div>
-      ________
     </>
   )
 }

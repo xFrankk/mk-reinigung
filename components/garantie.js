@@ -1,7 +1,10 @@
 export default function Garantie() {
   return (
     <>
-      <div id="garantie" className="h-screen flex items-center">
+      <div
+        id="garantie"
+        className="h-screen flex items-center bg-marta3 bg-cover -m-4 bg-center"
+      >
         <div>
           <button className="cursor-default rotate-45 p-6 bg-yellow-400 rounded-full md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
             logo
@@ -15,7 +18,6 @@ export default function Garantie() {
           </h4>
         </div>
       </div>
-      ________
     </>
   )
 }
