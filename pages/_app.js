@@ -11,10 +11,8 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <Nav />
-      <div className="px-4 sm:px-16 md:px-32 xl:px-40 2xl:px-96 text-center bg-green-100">
-        <Component {...pageProps} />
-        <Impressum />
-      </div>
+      <Component {...pageProps} />
+      <Impressum />
     </div>
   )
 }

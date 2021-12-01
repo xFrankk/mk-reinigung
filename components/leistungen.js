@@ -5,7 +5,7 @@ import { FaStethoscope } from "react-icons/fa"
 
 export default function Leistungen() {
   return (
-    <>
+    <div className="px-4 sm:px-16 md:px-32 xl:px-40 2xl:px-96 text-center bg-green-100">
       <div id="leistungen" className="py-20">
         <h3 className="mb-10 md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
           <b>Unsere Leistungen</b>
@@ -57,11 +57,11 @@ export default function Leistungen() {
         </div>
 
         <Link href="/leistungen">
-          <button className="bg-green-300 hover:bg-green-400 text-white rounded-2xl p-2 mt-10 sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl">
+          <button className="bg-green-300 hover:bg-green-400 rounded-2xl p-2 mt-10 sm:text-lg md:text-xl lg:text-2xl xl:text-3xl 2xl:text-4xl">
             Alle Leistungen
           </button>
         </Link>
       </div>
-    </>
+    </div>
   )
 }

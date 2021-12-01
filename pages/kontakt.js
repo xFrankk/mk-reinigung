@@ -7,7 +7,7 @@ import {
 export default function Kontakt() {
   return (
     <>
-      <div className="h-screen flex items-center justify-center">
+      <div className="h-screen flex items-center justify-center px-4 sm:px-16 md:px-32 xl:px-40 2xl:px-96 text-center bg-green-100">
         <div>
           <h3 className="mb-10 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
             <b>Lernen Sie uns kennen!</b>
@@ -26,7 +26,6 @@ export default function Kontakt() {
           </h4>
         </div>
       </div>
-      ________
     </>
   )
 }

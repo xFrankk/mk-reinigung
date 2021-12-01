@@ -3,10 +3,10 @@ export default function Garantie() {
     <>
       <div
         id="garantie"
-        className="h-screen flex items-center bg-marta3 bg-cover -m-4 bg-center"
+        className="h-screen flex items-center bg-marta2 bg-gray-200 xl:bg-contain xl:bg-no-repeat bg-cover bg-center px-4 sm:px-16 md:px-32 xl:px-40 2xl:px-96 text-center bg-green-100"
       >
         <div>
-          <button className="cursor-default rotate-45 p-6 bg-yellow-400 rounded-full md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
+          <button className="cursor-default rotate-45 p-6 bg-green-300 rounded-full md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
             logo
           </button>
           <h4 className="my-10 md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">

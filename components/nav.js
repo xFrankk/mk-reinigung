@@ -54,7 +54,7 @@ export default function Nav() {
               </a>
             </Link>
             <Link href="/#garantie">
-              <a className="p-3 pr-0 cursor-pointer text-yellow-400 hover:text-yellow-500">
+              <a className="p-3 pr-0 cursor-pointer text-green-300 hover:text-green-400">
                 <h5 className="lg:text-lg">
                   <b>GARANTIE</b>
                 </h5>
@@ -82,7 +82,7 @@ export default function Nav() {
               <a className="p-4 sm:p-6 text-xl">KONTAKT</a>
             </Link>
             <Link href="/#garantie">
-              <a className="p-4 sm:p-6 text-xl text-yellow-400">GARANTIE</a>
+              <a className="p-4 sm:p-6 text-xl text-green-300">GARANTIE</a>
             </Link>
           </div>
         </div>
@@ -91,7 +91,7 @@ export default function Nav() {
         <button
           className={`${
             router.pathname === "/kontakt" ? "hidden" : ""
-          } z-10 bg-green-300 hover:bg-green-500 rounded-2xl fixed bottom-5 right-5 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl p-2`}
+          } z-10 bg-green-300 hover:bg-green-400 rounded-2xl fixed bottom-5 right-5 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl p-2`}
         >
           Kontakt
         </button>

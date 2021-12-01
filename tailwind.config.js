@@ -12,7 +12,8 @@ module.exports = {
         food: "url('/img/food.png')",
         marta1: "url('/img/marta1.jpg')",
         marta4: "url('/img/marta4.jpg')",
-        marta3: "url('/img/marta3.jpg')"
+        marta3: "url('/img/marta3.jpg')",
+        marta2: "url('/img/marta2.jpg')"
       }
     }
   },

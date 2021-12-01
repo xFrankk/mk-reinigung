@@ -24,13 +24,13 @@ export default function Reviews() {
 
   return (
     <>
-      <div className="py-20">
+      <div className="py-20 px-4 sm:px-16 md:px-32 xl:px-40 2xl:px-96 text-center bg-green-100">
         <h3 className="my-5 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
           <b>Unsere Kunden sind zufrieden!</b>
         </h3>
         <div className="w-full flex justify-between items-center text-2xl my-5 h-96">
           <button className="sm:p-5" onClick={decrement}>
-            <MdOutlineArrowBackIos className="text-green-300" />
+            <MdOutlineArrowBackIos />
           </button>
           {number === 1 ? (
             <div>
@@ -70,7 +70,7 @@ export default function Reviews() {
             </div>
           )}
           <button className="sm:p-5 cursor-pointer " onClick={increment}>
-            <MdOutlineArrowForwardIos className="text-green-300" />
+            <MdOutlineArrowForwardIos />
           </button>
         </div>
         {/* <div className="flex justify-center text-green-100">

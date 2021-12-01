@@ -6,7 +6,10 @@ import { FaBuilding, FaStethoscope } from "react-icons/fa"
 export default function Leistungen() {
   return (
     <>
-      <div id="leistungen" className="py-20">
+      <div
+        id="leistungen"
+        className="py-20 px-4 sm:px-16 md:px-32 xl:px-40 2xl:px-96 text-center bg-green-100"
+      >
         <h3 className="mb-10 md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
           <b>Unsere Leistungen</b>
         </h3>
@@ -101,7 +104,6 @@ export default function Leistungen() {
           </div>
         </div>
       </div>
-      ________
     </>
   )
 }
