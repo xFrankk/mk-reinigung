@@ -8,12 +8,22 @@ export default function Garantie() {
         className="h-screen flex items-center bg-hmarta2 bg-gray-200 xl:bg-cover xl:bg-no-repeat bg-cover bg-center px-4 sm:px-16 md:px-32 xl:px-40 2xl:px-96 text-center bg-green-100"
       >
         <div>
-          <Image
-            src="/img/garantie.png"
-            placeholder="hi"
-            width={400}
-            height={400}
-          />
+          <div className="xl:hidden">
+            <Image
+              src="/img/garantie.png"
+              placeholder="hi"
+              width={200}
+              height={200}
+            />
+          </div>
+          <div className="hidden xl:block">
+            <Image
+              src="/img/garantie.png"
+              placeholder="hi"
+              width={400}
+              height={400}
+            />
+          </div>
           {/* <button className="cursor-default rotate-45 p-6 bg-green-300 rounded-full md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
             logo
           </button> */}
