@@ -1,13 +1,29 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Start() {
   return (
-    <div className="bg-marta1 xl:bg-contain xl:bg-no-repeat bg-gray-200 bg-cover bg-center px-4 sm:px-16 md:px-32 xl:px-40 2xl:px-96 text-center">
+    <div className="bg-hmarta1 xl:bg-cover xl:bg-no-repeat bg-gray-200 bg-cover bg-center px-4 sm:px-16 md:px-32 xl:px-40 2xl:px-96 text-center">
       <div id="start" className="relative h-screen">
         <Link href="/#garantie">
-          <button className="absolute right-0 top-40 rotate-45 rounded-full p-6 bg-green-300 hover:bg-green-400 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
-            logo
-          </button>
+          <div className="xl:hidden absolute left-0 top-32 cursor-pointer">
+            <Image
+              src="/img/garantie.png"
+              placeholder="hi"
+              width={200}
+              height={200}
+            />
+          </div>
+        </Link>
+        <Link href="/#garantie">
+          <div className="hidden xl:block absolute right-0 rotate-45 top-32 cursor-pointer">
+            <Image
+              src="/img/garantie.png"
+              placeholder="hi"
+              width={300}
+              height={300}
+            />
+          </div>
         </Link>
         <div className="absolute top-2/4">
           <div className="flex items-center">

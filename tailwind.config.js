@@ -8,12 +8,8 @@ module.exports = {
         oswald: ["Outfit"]
       },
       backgroundImage: {
-        woman: "url('/img/woman.jpg')",
-        food: "url('/img/food.png')",
-        marta1: "url('/img/marta1.jpg')",
-        marta4: "url('/img/marta4.jpg')",
-        marta3: "url('/img/marta3.jpg')",
-        marta2: "url('/img/marta2.jpg')"
+        hmarta1: "url('/img/hmarta1.jpg')",
+        hmarta2: "url('/img/hmarta2.jpg')"
       }
     }
   },

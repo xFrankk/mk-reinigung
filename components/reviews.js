@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { BsCircleFill } from "react-icons/bs"
 import { MdOutlineArrowBackIos, MdOutlineArrowForwardIos } from "react-icons/md"
+import { AiFillStar } from "react-icons/ai"
 
 export default function Reviews() {
   const [number, setNumber] = useState(1)
@@ -34,35 +35,50 @@ export default function Reviews() {
           </button>
           {number === 1 ? (
             <div>
-              <h5 className="2xl:w-2/4 m-auto md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+              <h5 className="2xl:w-3/5 m-auto md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
                 "Seit über drei Jahren macht Frau Kuliberda mit ihrem
                 Reinigungsservice die Treppenreinigung unserer Anlagen. Ihre
                 Arbeit ist immer sehr gut und vor Allem konstant. Wir hoffen auf
                 eine noch lange Zusammenarbeit."
               </h5>
+              <AiFillStar className="m-auto inline" />
+              <AiFillStar className="m-auto inline" />
+              <AiFillStar className="m-auto inline" />
+              <AiFillStar className="m-auto inline" />
+              <AiFillStar className="m-auto inline" />
               <h5 className="my-5 md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
                 <b>Fritz Böswald, Geschäftsführer der Rundhaus GmbH</b>
               </h5>
             </div>
           ) : number === 2 ? (
             <div>
-              <h5 className="2xl:w-2/4 m-auto md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+              <h5 className="2xl:w-3/5 m-auto md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
                 "Frau Kuliberda arbeitet äußerst gründlich und ordentlich. Sie
                 ist ohne Ausnahmen zuverlässig und vertrauenswürdig. Wir sind
                 sehr froh, sie gefunden zu haben."
               </h5>
+              <AiFillStar className="m-auto inline" />
+              <AiFillStar className="m-auto inline" />
+              <AiFillStar className="m-auto inline" />
+              <AiFillStar className="m-auto inline" />
+              <AiFillStar className="m-auto inline" />
               <h5 className="my-5 md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
                 <b>Franz Lindner, Steuerberater</b>
               </h5>
             </div>
           ) : (
             <div>
-              <h5 className="2xl:w-2/4 m-auto md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+              <h5 className="2xl:w-3/5 m-auto md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
                 "Frau Kuliberda ist eine sehr angenehme und freundliche Person.
                 Seit fünf Jahren reinigt sie unsere Büroräume und es gab noch
                 nie einen Grund zur Beanstandung. Jeder schätzt ihre Höflichkeit
                 und Pünktlichkeit."
               </h5>
+              <AiFillStar className="m-auto inline" />
+              <AiFillStar className="m-auto inline" />
+              <AiFillStar className="m-auto inline" />
+              <AiFillStar className="m-auto inline" />
+              <AiFillStar className="m-auto inline" />
               <h5 className="my-5 md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
                 <b>Firma van Erp GmbH</b>
               </h5>
