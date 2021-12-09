@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        oswald: ["Outfit"]
+        outfit: ["Outfit"]
       },
       backgroundImage: {
         hmarta1: "url('/img/hmarta1.jpg')",

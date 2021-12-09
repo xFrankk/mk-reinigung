@@ -5,7 +5,7 @@ import Impressum from "../components/impressum"
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div className="font-oswald text-gray-700 font-semibold">
+    <div className="font-outfit text-gray-700 font-semibold">
       <Head>
         <title>MK-Reinigung</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
