@@ -14,7 +14,7 @@ export default function WarumWir() {
           <div className="m-7 lg:w-2/4">
             <Image
               src="/img/eigenschaften/zuverlässig.png"
-              placeholder="praxis"
+              placeholder="zuverlässig"
               width={200}
               height={200}
             />
@@ -29,7 +29,7 @@ export default function WarumWir() {
           <div className="m-7 lg:w-2/4">
             <Image
               src="/img/eigenschaften/kompetent.png"
-              placeholder="praxis"
+              placeholder="kompetent"
               width={200}
               height={200}
             />
@@ -45,7 +45,7 @@ export default function WarumWir() {
           <div className="m-7 lg:w-2/4">
             <Image
               src="/img/eigenschaften/individuell.png"
-              placeholder="praxis"
+              placeholder="individuell"
               width={200}
               height={200}
             />
@@ -59,7 +59,7 @@ export default function WarumWir() {
           <div className="m-7 lg:w-2/4">
             <Image
               src="/img/eigenschaften/flexibel.png"
-              placeholder="praxis"
+              placeholder="flexibel"
               width={200}
               height={200}
             />
@@ -75,7 +75,7 @@ export default function WarumWir() {
           <div className="m-7 lg:w-2/4">
             <Image
               src="/img/eigenschaften/gründlich.png"
-              placeholder="praxis"
+              placeholder="gründlich"
               width={200}
               height={200}
             />
@@ -89,7 +89,7 @@ export default function WarumWir() {
           <div className="m-7 lg:w-2/4">
             <Image
               src="/img/eigenschaften/professionell.png"
-              placeholder="praxis"
+              placeholder="professionell"
               width={200}
               height={200}
             />

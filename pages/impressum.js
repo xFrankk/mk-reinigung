@@ -1,5 +1,3 @@
-import { AiOutlineMail, AiOutlinePhone } from "react-icons/ai"
-
 export default function Impressum() {
   return (
     <>

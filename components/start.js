@@ -6,10 +6,10 @@ export default function Start() {
     <div className="bg-hmarta1 xl:bg-cover xl:bg-no-repeat bg-gray-200 bg-cover bg-center px-4 sm:px-16 md:px-32 xl:px-40 2xl:px-96 text-center">
       <div id="start" className="relative h-screen">
         <Link href="/#garantie">
-          <div className="xl:hidden  absolute left-0 top-28 cursor-pointer">
+          <div className="xl:hidden -rotate-45 absolute left-0 top-28 cursor-pointer">
             <Image
               src="/img/garantie.png"
-              placeholder="hi"
+              placeholder="garantie"
               width={200}
               height={200}
             />
@@ -19,7 +19,7 @@ export default function Start() {
           <div className="hidden xl:block absolute right-0 rotate-45 top-32 cursor-pointer">
             <Image
               src="/img/garantie.png"
-              placeholder="hi"
+              placeholder="garantie"
               width={300}
               height={300}
             />

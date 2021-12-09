@@ -28,8 +28,8 @@ export default function Leistungen() {
           </div>
           <div className="m-7 lg:w-2/4">
             <Image
-              src="/img/leistungen/office.png"
-              placeholder="praxis"
+              src="/img/leistungen/büro.png"
+              placeholder="büro"
               width={200}
               height={200}
             />
@@ -45,8 +45,8 @@ export default function Leistungen() {
         <div className="lg:flex">
           <div className="m-7 lg:w-2/4">
             <Image
-              src="/img/leistungen/construction.png"
-              placeholder="praxis"
+              src="/img/leistungen/bau.png"
+              placeholder="bau"
               width={200}
               height={200}
             />
@@ -62,7 +62,7 @@ export default function Leistungen() {
           <div className="m-7 lg:w-2/4">
             <Image
               src="/img/leistungen/kita.png"
-              placeholder="praxis"
+              placeholder="kita"
               width={200}
               height={200}
             />
@@ -78,8 +78,8 @@ export default function Leistungen() {
         <div className="lg:flex">
           <div className="m-7 lg:w-2/4">
             <Image
-              src="/img/leistungen/stairs.png"
-              placeholder="praxis"
+              src="/img/leistungen/treppe.png"
+              placeholder="treppe"
               width={200}
               height={200}
             />
@@ -95,7 +95,7 @@ export default function Leistungen() {
           <div className="m-7 lg:w-2/4">
             <Image
               src="/img/leistungen/haus.png"
-              placeholder="praxis"
+              placeholder="haus"
               width={200}
               height={200}
             />
@@ -111,8 +111,8 @@ export default function Leistungen() {
         <div className="lg:flex">
           <div className="m-7 lg:w-2/4">
             <Image
-              src="/img/leistungen/building.png"
-              placeholder="praxis"
+              src="/img/leistungen/gebäude.png"
+              placeholder="gebäude"
               width={200}
               height={200}
             />
@@ -127,7 +127,7 @@ export default function Leistungen() {
           <div className="m-7 lg:w-2/4">
             <Image
               src="/img/leistungen/boden.png"
-              placeholder="praxis"
+              placeholder="boden"
               width={200}
               height={200}
             />

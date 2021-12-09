@@ -1,5 +1,4 @@
 import { useState } from "react"
-import { BsCircleFill } from "react-icons/bs"
 import { MdOutlineArrowBackIos, MdOutlineArrowForwardIos } from "react-icons/md"
 import { AiFillStar } from "react-icons/ai"
 

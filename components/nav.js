@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { AiOutlineMenu, AiOutlineMail } from "react-icons/ai"
+import { AiOutlineMenu } from "react-icons/ai"
 import { MdCancelPresentation } from "react-icons/md"
 import { GiVacuumCleaner } from "react-icons/gi"
 import Link from "next/link"
