@@ -24,7 +24,7 @@ export default function Garantie() {
               height={400}
             />
           </div>
-          <h4 className="md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
+          <h4 className="md:text-2xl pb-10 lg:text-3xl xl:text-4xl 2xl:text-5xl">
             Freundlicher Service, Reinigung bis ins kleinste Detail und
             Termintreue und Das ohne Ausnahmen. Falls Sie mit unserer Arbeit
             nicht zufrieden sind, nachdem wir Ihren Auftrag ausgeführt haben,
