@@ -9,6 +9,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>MK-Reinigung</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="google-site-verification" content="YjQn3trMf8zBqpcqZliooXHJSQ6kXLWnohMYDWXcEfc" />
       </Head>
       <Nav />
       <Component {...pageProps} />
