@@ -6,8 +6,10 @@ export default function Impressum() {
         className="py-20 px-4 sm:px-16 md:px-32 xl:px-40 2xl:px-96 text-center bg-green-100"
       >
         <h3 className="mb-10 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
-          <b>Impressum</b>
+          <b>Datenschutzerklärung</b>
         </h3>
+        <h5 className="sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+          Mk-Reinigung
         <h5 className="sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
           Mk-Reinigung
         </h5>
