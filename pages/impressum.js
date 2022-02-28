@@ -8,18 +8,28 @@ export default function Impressum() {
       <h3 className="mb-10 sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl">
         <b>Datenschutzerklärung</b>
       </h3>
-      <h5 className="sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+      <h4 className="sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
         <b>Allgemeiner Hinweis und Pflichtinformationen</b>
-      </h5>
+      </h4>
       <h5 className="sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
         Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
       </h5>
-        <h5 className="sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
-          Franz-Boecker-Str. 86
-        </h5>
-        <h5 className="sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
-          86633 Neuburg/Donau
-        </h5>
+      <h5 className="sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+       Mk-Reinigung
+     </h5>
+     <h5 className="sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+       Franz-Boecker-Str. 86
+     </h5>
+     <h5 className="sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+       86633 Neuburg/Donau
+     </h5>
+     <h5 className="sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+       Die verantwortliche Stelle entscheidet allein oder gemeinsam mit anderen über die Zwecke
+       und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, Kontaktdaten o. Ä.).
+     </h5>
+     <h4 className="my-10 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
+       <b>Widerruf Ihrer Einwilligung zur Datenverarbeitung</b>
+     </h4>
         <h4 className="my-10 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
           <b>Urheberrecht</b>
         </h4>
