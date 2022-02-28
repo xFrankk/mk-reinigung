@@ -30,6 +30,25 @@ export default function Impressum() {
      <h4 className="my-10 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
        <b>Widerruf Ihrer Einwilligung zur Datenverarbeitung</b>
      </h4>
+     <h5 className="sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+         Nur mit Ihrer ausdrücklichen Einwilligung sind einige Vorgänge der Datenverarbeitung
+         möglich. Ein Widerruf Ihrer bereits erteilten Einwilligung ist jederzeit möglich. Für den
+         Widerruf genügt eine formlose Mitteilung per E-Mail. Die Rechtmäßigkeit der bis zum
+         Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.
+        </h5>
+        <h4 className="my-10 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
+          <b>Recht auf Beschwerde bei der zuständigen Aufsichtsbehörde</b>
+          </h4>
+        </h4>
+        <h5 className="sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+         Als Betroffener steht Ihnen im Falle eines datenschutzrechtlichen Verstoßes ein
+         Beschwerderecht bei der zuständigen Aufsichtsbehörde zu. Zuständige Aufsichtsbehörde
+         bezüglich datenschutzrechtlicher Fragen ist der Landesdatenschutzbeauftragte des Bundeslandes,
+         in dem sich der Sitz unseres Unternehmens befindet.
+         Der folgende Link stellt eine Liste der Datenschutzbeauftragten
+         sowie deren Kontaktdaten bereit:
+            https://www.bfdi.bund.de/DE/Infothek/Anschriften_Links/anschriften_links-node.html.
+        </h5>
         <h4 className="my-10 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
           <b>Urheberrecht</b>
         </h4>
