@@ -118,6 +118,7 @@ export default function Impressum() {
          und weitere Informationen in den Datenschutzbestimmungen von Google:
          <a>https://policies.google.com/privacy/partners?hl=de</a>
          Quelle: Datenschutz-Konfigurator von mein-datenschutzbeauftragter.de
+         </h5>
 
 
 
