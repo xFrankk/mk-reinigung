@@ -39,7 +39,6 @@ export default function Impressum() {
         <h4 className="my-10 sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
           <b>Recht auf Beschwerde bei der zuständigen Aufsichtsbehörde</b>
           </h4>
-        </h4>
         <h5 className="sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
          Als Betroffener steht Ihnen im Falle eines datenschutzrechtlichen Verstoßes ein
          Beschwerderecht bei der zuständigen Aufsichtsbehörde zu. Zuständige Aufsichtsbehörde
